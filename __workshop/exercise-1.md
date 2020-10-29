@@ -17,3 +17,22 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+/customer 'GET' list of all customers
+/customer 'POST' add new customer
+/customer/:id 'GET' info on a customer
+/customer/:id 'PUT' modify info on existing customer
+/customer/:id 'PATCH' partially modify customer info
+/customer/:id 'DELETE' delete a customer
+/stock 'GET' list of all stock
+/stock 'POST' add new stock
+/stock/:id 'GET' info on specific stock
+/stock/:id 'PUT' modify info on existing stock
+/stock/:id 'PATCH' partially modify stock info
+/stock/:id 'DELETE' delete a stock
+/seating 'GET' list of all seating
+/seating 'POST' add new seating
+/seating/:id 'GET' info on specific seating
+/seating/:id 'PUT' modify info on existing seating
+/seating/:id 'PATCH' partially modify seating info
+/seating/:id 'DELETE' delete a seating
